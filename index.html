@@ -1,34 +1,55 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Melody's Portfolio</title>
+    <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-    <h1>Melody Ang's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
-    <hr />
-    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-       <img src="./assets/images/movie-ranking.png"alt="Movie Ranking Project Preview" height="200"/>
-    <hr/>
-    <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-    <img src="./assets/images/birthday-invite.png" alt="Birthday Invite Project Preview" height="300"/>
-    <hr>
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
+    <div class="container">
+         <div class="text1">
+             <h1>Hi There! I am </h1>
+             <h1 class="name">Melody Ang</h1>
+             <h2>an aspiring UI/UX Designer </h2>
+             <button id="viewProj" onclick=""> View Projects</button>
+        </div>
+        <img id="picture" src="./assets/images/id.jpg" alt="Picture of Melody Ang" width="300" height="300"/>
+    </div>
+    <div class="about">
+        <h1>About Me</h1>
+        <div>
+        <p>Nice to meet you! I am a 2nd year IT student in Saint Louis University who loves everything about design from
+            logos, user interfaces, social media posts, and advertisements. I give my best in my designs and provide great user-experiences to them.  </p>
+        </div>
+
+    </div>
+    <div class="skills">
+        <h1>Skills</h1>
+
+    </div>
+    <div class="projects">
+        <h1>My Projects</h1>
+       <div class="buttons">
+           <a href="./public/projects/vaccineSystem.html">
+               <img class="projB" id="vaccine" src="" alt="Vaccination Scheduling System"/></a>
+           <a href="./public/projects/canteenSystem.html">
+               <img class="projB" id="canteen" alt="SLU canteen ordering app"/></a>
+           <a href="./public/projects/pal-en-queue.html">
+               <img class="projB" id="pal-en-queue" alt="pal-en-queue"/></a>
+           <a href="./public/projects/cunningCat.html">
+               <img class="projB" id="milktea" alt=" CunningCat Ordering App"/></a>
+           <a href="./public/projects/WordyGame.html">
+               <img class="projB" id="wordy" alt="Wordy Game"/></a>
+       </div>
+    </div>
+
 </body>
+<footer>
+    <p>© 2023 Melody Jane Ang</p>
+</footer>
+
 </html>
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->

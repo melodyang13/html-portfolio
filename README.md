@@ -1,2 +1,2 @@
-# html-portfolio
-Portfolio from Udemy WebDev Course
+# MyPortfolio
+I am an 2nd year IT student working on my portfolio for future purposes
